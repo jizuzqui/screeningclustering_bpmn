@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.risks</groupId>
   <artifactId>screeningclustering_bpmn</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <packaging>kjar</packaging>
   <name>screeningclustering_bpmn</name>
   <description></description>
@@ -44,6 +44,12 @@
       <artifactId>xstream</artifactId>
       <version>1.4.10</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.data</groupId>
+      <artifactId>screeningclustering_model</artifactId>
+      <version>1.0.0-SNAPSHOT</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
   <build>
